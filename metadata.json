@@ -1,0 +1,6 @@
+{
+  "name": "Kalkulator Pintar",
+  "description": "Aplikasi kalkulator pintar dengan menu dan fitur lengkap.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
