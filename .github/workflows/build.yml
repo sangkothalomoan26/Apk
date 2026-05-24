@@ -20,11 +20,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Beri izin untuk menjalankan Gradle
-        run: chmod +x gradlew
-
-      - name: Rakit menjadi APK (Debug)
-        run: ./gradlew assembleDebug
+      - name: Rakit menjadi APK (Pakai Gradle bawaan Server)
+        run: gradle assembleDebug
 
       - name: Simpan dan Sediakan APK untuk Diunduh
         uses: actions/upload-artifact@v4
